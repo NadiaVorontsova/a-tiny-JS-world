@@ -58,9 +58,9 @@ const catWoman = {
 const inhabitancy = [dog, cat, man, woman, catWoman];
 
 function checkFriends(inhabitant, inProp) {
-   if(inhabitant.friends){
+   if (inhabitant.friends) {
       return inhabitant.friends;
-   }else{
+   } else {
       return 'no friends';
    }
 }
