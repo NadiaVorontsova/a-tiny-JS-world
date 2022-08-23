@@ -40,7 +40,7 @@ const woman = {
    gender: 'female',
    legs: 2,
    hands: 2,
-   saying: 'Hello everybody!',
+   saying: 'Hello my friend!',
    friends: 'Yura'
 };
 
@@ -57,12 +57,8 @@ const catWoman = {
 
 const inhabitancy = [dog, cat, man, woman, catWoman];
 
-function checkFriends(inhabitant, inProp) {
-   if (inhabitant.friends) {
-      return inhabitant.friends;
-   } else {
-      return 'no friends';
-   }
+function checkFriends(inhabitant) {
+   return inhabitant.friends || 'no friends';
 }
 
 function printInhabitancy(inhabitant) {
