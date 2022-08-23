@@ -70,4 +70,3 @@ function printInhabitancy(inhabitant) {
 }
 
 inhabitancy.map((inhabitant) => print(printInhabitancy(inhabitant), 'div'));
-
